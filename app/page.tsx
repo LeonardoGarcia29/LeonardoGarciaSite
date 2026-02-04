@@ -14,15 +14,22 @@ export default function Home() {
         />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+            Leonardo Garcia Personal Site.
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
+            Requirements:<br/>
+                  - A picture of yourself<br/>
+                  - Video of self-introduction (minimum of 1 minute and no more than 1.5 minutes)<br/>
+                  - Link to transcript information in an HTML TABLE format<br/>
+                  - A drop-down box with at least 2 choices (point to 2 separate school or internship projects that
+                    you have done with descriptions in separate HTML page/file)<br/>
+                  - Google Map with a marker on your home address on your main page<br/>
+                  - Readme file<br/>{" "}
             <a
               href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
               className="font-medium text-zinc-950 dark:text-zinc-50"
             >
-              Templates
+             <br/> Templates
             </a>{" "}
             or the{" "}
             <a

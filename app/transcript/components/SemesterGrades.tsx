@@ -1,4 +1,4 @@
-export default function SemesterGrades({ semesterGrades }: any) {
+export default function SemesterGrades({ semesterGrades, finalScores }: any) {
     return <>
     <thead>
         <tr>
@@ -25,6 +25,21 @@ export default function SemesterGrades({ semesterGrades }: any) {
             <td>{course.UE}</td>
             <td>{course.GR}</td>
             <td>{course.GP}</td>
+        </tr>
+       ))}
+    </tbody>
+    <tbody>
+       {finalScores.map((score: any) => (
+        <tr key={score.scoreName}>
+            <td></td>
+            <td></td>
+            <td>{score.scoreName}</td>
+            <td>{score.UA}</td>
+            <td>{score.UG}</td>
+            <td>{score.UE}</td>
+            <td></td>
+            <td>{score.GP}</td>
+            <td>{score.GPA}</td>
         </tr>
        ))}
     </tbody>

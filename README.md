@@ -5,7 +5,7 @@ For simplicity, the website is hosted at: https://leo-garcia.vercel.app/
 All the source code is under the "app" folder
 
 ## Project Structure
-
+```
 App
   -componets/                        # Has the components used in the main page
       -GeneralInfoCard.tsx           # components of the infor with picture, name, linked, github, and general information
@@ -22,6 +22,33 @@ App
   -globals.css                       # Source code for styles applied to the whole website
   -layout.tsx                        # Defines the structure across all pages
   -page.tsx                          # Source code for the main/home page
+
+```
+
+## Project Structure
+
+```
+App
+├── components/
+│   ├── GeneralInfoCard.tsx     # Has the components used in the main page
+│   ├── NavBar.tsx              # Navigation bar
+│   └── dropdown.tsx            # Drop-down menu used for the projects
+│
+├── facultySync/
+│   └── page.tsx                # Source for the Faculty Sync project page
+│
+├── keyshade/
+│   └── page.tsx                # Source for the Keyshade contribution page
+│
+├── transcript/
+│   ├── components/
+│   │   └── SemesterGrades.tsx  # Component used to display grades
+│   └── page.tsx                # Source for the transcript page
+│
+├── globals.css                 # Source code for styles applied to the whole website
+├── layout.tsx                  # Defines the structure across all pages
+└── page.tsx                    # Source code for the main/home page
+```
 
 
 

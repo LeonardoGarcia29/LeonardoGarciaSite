@@ -23,6 +23,12 @@ App
   -layout.tsx                        # Defines the structure across all pages
   -page.tsx                          # Source code for the main/home page
 
+
+public 
+    -facultySync.png                 #Logo of Faculty Sync project 
+    -IMG_2442.mp4                    #Introduction video
+    -keyshade.png                    #Logo of Keyshade project 
+    -leonardogarcia.jpg              #protrait photo
 ```
 
 

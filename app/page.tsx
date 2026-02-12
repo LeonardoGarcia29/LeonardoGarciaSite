@@ -7,7 +7,7 @@ export default function Home() {
       <GeneralInfoCard />
       <div className="flex justify-between w-[65%] z-10 mt-10 mb-15">
         <div className="flex-[3]">
-          <p className="mb-2 font-bold text-2xl text-black">Introduction Video</p>
+          <p className="mb-2 font-bold text-2xl text-black">Introduction Video </p>
           <video src="/IMG_2442.mp4" controls className="w-full h-full object-cover rounded-3xl" />
         </div>
         <div className="flex-[1]"></div>

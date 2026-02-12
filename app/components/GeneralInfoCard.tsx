@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function GeneralInfoCard() {
   return (
-    <div className="relative flex w-[65%] rounded-3xl h-">
+    <div className="relative flex w-[65%] rounded-3xl mt-10">
       {/* <div className="absolute inset-0 bg-[url('/sjsu2.jpg')] bg-cover bg-center opacity-70"></div> */}
       <div className="flex-[3] p-10 bg-white text-black rounded-l-3xl">
         <h1 className="text-4xl font-bold mb-4">Leonardo Garcia</h1>

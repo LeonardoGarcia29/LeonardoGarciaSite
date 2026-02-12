@@ -231,7 +231,7 @@ export default function Transcript() {
   ]
 
   return (
-    <div className="text-black  text-sm bg-blue-100">
+    <div className="text-black  text-sm">
       <table>
         <caption className="py-4 font-bold text-xl">San Jose State University</caption>
         <tbody>

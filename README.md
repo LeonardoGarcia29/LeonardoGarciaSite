@@ -1,6 +1,27 @@
-Leonardo Gaarcia Persoanl website 
+## Leonardo Gaarcia Persoanl website 
 
-The website is hosted at: https://leo-garcia.vercel.app/ 
+For simplicity, the website is hosted at: https://leo-garcia.vercel.app/ 
+
+All the source code is under the "app" folder
+
+## Project Structure
+
+App
+  -componets/                        # Has the components used in the main page
+      -GeneralInfoCard.tsx           # components of the infor with picture, name, linked, github, and general information
+      -NavBar.tsx                    # Navegation bar 
+      -dropdown.tsx                  # Drop-down menu used for the projects
+  -facultySync/
+      -page.tsx                      # Source for the faculty Sync project page                     
+  -keyshade/
+      -page.tsx                      # Source for the Keyshade contribution page         
+  -transcript/
+      -components/
+          -SemesterGrades.tsx        # component used to display grades 
+      -page.tsx                      # Source for the transcript page
+  -globals.css                       # Source code for styles applied to the whole website
+  -layout.tsx                        # Defines the structure across all pages
+  -page.tsx                          # Source code for the main/home page
 
 
 
@@ -10,7 +31,7 @@ The website is hosted at: https://leo-garcia.vercel.app/
 
 
 
-
+-----------------------------------------------------------------------
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started

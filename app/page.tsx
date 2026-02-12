@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <div className="relative flex flex-col items-center justify-evenly w-full h-screen bg-cover bg-center bg-no-repeat">
       <GeneralInfoCard />
-      <div className="flex justify-between w-[65%] z-10 mt-10">
+      <div className="flex justify-between w-[65%] z-10 mt-10 mb-15">
         <div className="flex-[3]">
           <p className="mb-2 font-bold text-2xl text-black">Introduction Video</p>
-          <video src="/IMG_2128.mov" controls className=" w-full h-full object-cover rounded-3xl" />
+          <video src="/IMG_2442.mp4" controls className="w-full h-full object-cover rounded-3xl" />
         </div>
         <div className="flex-[1]"></div>
         <div className="flex-[2] rouned-3xl">
@@ -21,5 +21,4 @@ export default function Home() {
       </div>
     </div>
   );
-
 }

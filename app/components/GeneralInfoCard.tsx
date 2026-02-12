@@ -26,7 +26,7 @@ export default function GeneralInfoCard() {
           hover:scale-102 hover:bg-blue-700 hover:text-white transition-transform duration-250">Resume</button> */}
         </div>
       </div>
-      <div className="flex flex-[1] bg-white rounded-r-3xl">
+      <div className="flex flex-[2] bg-white rounded-r-3xl">
         <Image src="/leonardogarcia.jpg" alt="Student Picture" height={500} width={400}
           className="w-auto h-full rounded-r-3xl object-cover ml-auto"
         />

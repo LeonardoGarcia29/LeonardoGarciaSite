@@ -10,7 +10,7 @@ export default function NavBar() {
   const router = useRouter();
 
   function handlePasswordSubmit() {
-    if (password === "123") {
+    if (password === "frankbutt") {
       sethide(true);
       setPassword("");
       setOnTranscript(true);
@@ -24,7 +24,7 @@ export default function NavBar() {
   return <>
 
 
-    <nav className="flex bg-[#FFFBE9] text-black h-16 justify-evenly items-center" >
+    <nav className="flex bg-[#FFFBE9] text-black h-16 justify-evenly items-center overflow-visible" >
       {!hide && !onTranscript && (<div className="flex fixed inset-0 items-center justify-center z-50 text-black bg-black/50">
         <div className="bg-gray-100 p-5 rounded-lg">
           <h2 className="mb-2">Enter Password</h2>
@@ -46,9 +46,9 @@ export default function NavBar() {
         <div>
           <button disabled={onTranscript} onClick={() => sethide(false)}>Transcript</button>
         </div>
-        <div>
-          <Dropdown />
-        </div>
+
+        <Dropdown />
+
       </div>
 
     </nav >
